@@ -38,8 +38,7 @@ export interface FilterBranch {
   right: FilterNode;
 }
 
-export type FilterNode = FilterLeaf | FilterBranch | "all";
-```
+export type FilterNode = FilterLeaf | FilterBranch | "all" | {};
 
 This allows us to build complex filters like this:
 
