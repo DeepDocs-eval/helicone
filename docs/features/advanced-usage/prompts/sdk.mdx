@@ -105,7 +105,7 @@ Both SDKs provide the `HeliconePromptManager` with these main methods:
 | `pullPromptBody()` | Fetch raw prompt from storage | Raw prompt body |
 | `pullPromptBodyByVersionId()` | Fetch prompt by specific version ID | Raw prompt body |
 | `mergePromptBody()` | Merge prompt with inputs and validation | Compilation result |
-| `getPromptBody()` | Complete compile process with inputs | Compiled body + validation errors |
+| `getPromptBody()` | Compile prompt with inputs (when `prompt_id` is provided) | Compiled body + validation errors |
 | `extractPromptPartials()` | Extract prompt partial references from prompt body | Array of prompt partial objects |
 | `getPromptPartialSubstitutionValue()` | Get the content to substitute for a prompt partial | Substitution string |
 
